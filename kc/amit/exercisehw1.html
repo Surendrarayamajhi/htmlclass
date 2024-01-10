@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body><form>
+    <h2>Travel Reservation Form</h2>
+    <h3>*Denotes Mandatory</h3>
+
+    <label for="fullname">Full name*:</label><br>
+    <input type="text" id="fullname" placeholder="FirstName LastName"><br>
+
+    <label for="email">Email Address*:</label><br>
+    <input type="email" id="email" placeholder="Email Address"><br>
+
+    <label for="Tour Package">Select Tour Package</label><br>
+    <select name="Package" id="Package">
+    <option value="Goa">Goa</option>
+    <option value="Bali">Bali</option>
+    <option value="Toronto">Toronto</option>
+    <option value="Hawaii">Hawaii</option>
+</select><br>
+
+    <label for="Arrival">Arrival Date*:</label><br>
+    <input type="datetime" placeholder="m/d/y"><br>
+
+    <label for="No of persons">Number of Persons*:</label><br>
+    <input type="number" placeholder="UNKNOWN_TYPE"><br>
+
+    <label for="avail">What do you want to avail?*</label><br>
+    <input type="checkbox"> Boarding <br>
+    <input type="checkbox"> Flooding <br>
+    <input type="checkbox"> Sightseeing <br>
+
+    <label for="discount">Discount Coupen Code:</label><br>
+    <input type="text" placeholder="UNKNOWN_TYPE"><br>
+
+    <label for="terms&conditions">Terms & Conditions*</label><br>
+    <input type="radio"> I agree
+    <input type="radio"> I disagree <br>
+
+    <input type="submit" value="Complete Reservation" >
+</form>
+</body>
+</html>
